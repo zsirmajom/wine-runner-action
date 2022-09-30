@@ -1,0 +1,6 @@
+# action.yml
+name: 'Wine runner'
+description: 'Runs a configured wine environment'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
